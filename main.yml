@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'finder'
+        description: 'juragantanah'
         required: true
-        default: 'finder'
+        default: 'juragantanah'
       agent_description:
-        description: 'finder'
+        description: 'juragantanah'
         required: true
-        default: 'finder AI Agent'
+        default: 'juragantanah AI Agent'
 
 jobs:
   verify:
